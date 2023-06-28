@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+/*font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 960px;
+  font-size: 15px;
+  font-weight: 400px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.first-box {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.first-box img,
+h2 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.first-box p {
+  margin-bottom: 80px;
+}
+
+.second-box {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.second-box img,
+h2 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.second-box p {
+  margin-bottom: 99px;
+}
+
+.third-box {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.third-box img,
+h2 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.third-box p {
+  margin-bottom: 99px;
+}
+
+.box {
+  padding: 40px;
+}
+
+.box h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  font-size: 30px;
+}
+
+button {
+  font-family: "Big Shoulders Display", cursive;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  padding: 12px 48px;
+  font-size: 15px;
+  cursor: pointer;
+  color: hsl(0, 0%, 95%);
+}
+
+button:hover {
+  background: transparent;
+  color: hsl(0, 0%, 95%);
+}
+
+.first-box button {
+  color: hsl(31, 77%, 52%);
+}
+
+.second-box button {
+  color: hsl(184, 100%, 22%);
+}
+
+.third-box button {
+  color: hsl(179, 100%, 13%);
+}
